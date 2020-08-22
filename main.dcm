@@ -1,13 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_100nF_TH_630V_Film_5%
+D Film Capacitor 100nF 630V 5% TH Radial
+F /home/jpartain/Hardware/datasheets/panasonic_caps_ecw.pdf
+$ENDCMP
+#
+$CMP C_250pF_TH_500V_Mica_5%
+D Mica Capacitor 250pF 500V 5% TH Radial
+F /home/jpartain/Hardware/datasheets/cornell_mica_caps.pdf
+$ENDCMP
+#
+$CMP C_25uF_TH_25V_20%
+D Capacitor Electrolytic 25uF 25VDC Axial Leaded 20%
+F /home/jpartain/Hardware/datasheets/tva_atom_caps.pdf
+$ENDCMP
+#
+$CMP C_47nF_TH_630V_Film_5%
+D Film Capacitor 47nF 630V 5% TH Radial
+F /home/jpartain/Hardware/datasheets/panasonic_caps_ecw.pdf
+$ENDCMP
+#
+$CMP C_500pF_TH_500V_Mica_5%
+D Mica Capacitor 500pF 500V 5% TH Radial
+F /home/jpartain/Hardware/datasheets/cornell_mica_caps.pdf
+$ENDCMP
+#
 $CMP Conn_01x02_2.54mm_Male_Lock
 D 2-pin 2.54mm Locking Header
-F /home/jpartain/Hardware/datasheets/22-04-2041.pdf
+F /home/jpartain/Hardware/datasheets/22-23-2021.pdf
 $ENDCMP
 #
 $CMP Conn_01x03_2.54mm_Male_Lock
 D 3-pin 2.54mm Locking Header
-F /home/jpartain/Hardware/datasheets/22-04-2041.pdf
+F /home/jpartain/Hardware/datasheets/22-23-2037.pdf
+$ENDCMP
+#
+$CMP Pot_1MA_Lug_Panel_Knurl_20%
+D Poteniometer 1MA 20% Solder Lug Panel Mount Knurled Shaft
+F /home/jpartain/Hardware/datasheets/Bourns_Pots_PDB24.pdfpdf
+$ENDCMP
+#
+$CMP Pot_250kA_Lug_Panel_Knurl_20%
+D Poteniometer 250kA 20% Solder Lug Panel Mount Knurled Shaft
+F /home/jpartain/Hardware/datasheets/Bourns_Pots_PDB24.pdfpdf
 $ENDCMP
 #
 $CMP R_1.5k_TH_500mW_350V_5%
@@ -15,9 +50,19 @@ D Carbon Composition Resistor 1.5k 5% 350V Through-hole
 F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
 $ENDCMP
 #
-$CMP R_100k_TH_500mW_350V_10%
-D Carbon Composition Resistor 100k 10% 350V Through-hole
+$CMP R_100_TH_500mW_350V_5%
+D Carbon Composition Resistor 100 5% 350V Through-hole
 F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
+$ENDCMP
+#
+$CMP R_100k_TH_500mW_350V_5%
+D Carbon Composition Resistor 100k 5% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/resistors_yageo_th.pdf
+$ENDCMP
+#
+$CMP R_100k_TH_Metal_500mW_350V_1%
+D Metal Film Resistor 100k 1% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/resistors_vishay_metal.pdf
 $ENDCMP
 #
 $CMP R_1M_TH_500mW_350V_10%
@@ -25,8 +70,23 @@ D Carbon Composition Resistor 1M 10% 350V Through-hole
 F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
 $ENDCMP
 #
-$CMP R_220k_TH_500mW_350V_10%
-D Carbon Composition Resistor 220k 10% 350V Through-hole
+$CMP R_220k_TH_500mW_350V_2%
+D Carbon Composition Resistor 220k 2% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/resistors_yageo_th.pdf
+$ENDCMP
+#
+$CMP R_22k_TH_500mW_350V_5%
+D Carbon Composition Resistor 22k 5% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
+$ENDCMP
+#
+$CMP R_470_TH_500mW_350V_5%
+D Carbon Composition Resistor 470 5% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
+$ENDCMP
+#
+$CMP R_6.8k_TH_500mW_350V_5%
+D Carbon Composition Resistor 6.8k 5% 350V Through-hole
 F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
 $ENDCMP
 #
@@ -35,13 +95,24 @@ D Carbon Composition Resistor 68k 5% 350V Through-hole
 F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
 $ENDCMP
 #
+$CMP R_82k_TH_500mW_350V_5%
+D Carbon Composition Resistor 82k 5% 350V Through-hole
+F /home/jpartain/Hardware/datasheets/kamaya_RC.pdf
+$ENDCMP
+#
 $CMP Switchcraft-12A
 D 1/4" Mono 2 Conductor Jack w/Nut & Washer, Tip is Shunt
 F /home/jpartain/Hardware/datasheets/12A.pdf
 $ENDCMP
 #
+$CMP Tube_12AT7
+D Tube 12AT7 9-pin
+F /home/jpartain/Hardware/datasheets/12AT7.pdf
+$ENDCMP
+#
 $CMP Tube_12AX7
 D Tube 12AX7 9-pin
+F /home/jpartain/Hardware/datasheets/12ax7_sylvania.pdf
 $ENDCMP
 #
 #End Doc Library
